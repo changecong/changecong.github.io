@@ -21,7 +21,29 @@
     margin-top: 10px;
 }
 
-.zc-avater {
-    width: 250px;
-    height: 250px;
+.zc-title img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.zc-avater>img {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media (max-width: 460px) {
+    .zc-company>img {
+    	margin-left: auto;  
+        margin-right: auto;
+	margin-top: 20px;
+        display: block;    	
+        width: 48px;
+	height:48px;
+    }
 }
