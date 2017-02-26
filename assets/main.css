@@ -1,0 +1,27 @@
+.container {
+    max-width: 680px;
+    padding-top: 20px;
+}
+
+.zc-company>img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.zc-timeline>.row {
+    padding-bottom: 20px;
+}
+
+.zc-timeline h3 {
+    margin-top: 10px; 
+}
+
+.zc-time {
+    margin-top: 10px;
+}
+
+.zc-avater {
+    width: 250px;
+    height: 250px;
+}
