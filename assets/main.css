@@ -43,6 +43,14 @@
     display: block;
 }
 
+.jumbotron {
+  margin-bottom: 10px;
+}
+
+.zc-collapse {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 460px) {
     .zc-company>img {
     	margin-left: auto;
