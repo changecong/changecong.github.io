@@ -1,64 +1,56 @@
-.container {
-    max-width: 680px;
-    padding-top: 20px;
-}
-
-.zc-company>img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-.zc-timeline>.row {
-    padding-bottom: 20px;
-}
-
-.zc-timeline h3 {
-    margin-top: 10px;
-}
-
-.zc-time {
-    margin-top: 10px;
-}
-
-.zc-title .zc-links {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.zc-links img {
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-}
-
-.zc-avater>img {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+body {
+  background: #eaeaea;
 }
 
 .jumbotron {
-  margin-bottom: 10px;
+  background-image: url("images/bg-100.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.zc-collapse {
-  margin-top: 10px;
-  margin-bottom: 10px;
+#navs {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: #f6f6e9;
 }
 
-@media (max-width: 460px) {
-    .zc-company>img {
-    	margin-left: auto;
-        margin-right: auto;
-	margin-top: 20px;
-        display: block;
-        width: 48px;
-	height:48px;
-    }
+#navs .nav-link {
+  font-weight: 700;
+  color: #f6f6e9;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+#header {
+  color: #f6f6e9;
+  background-color: rgba(253,95,0,0.3)
+}
+
+#intro {
+  background: #13334c;
+  color: #f6f6e9;
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+
+#experience {
+  padding-top: 64px;
+}
+
+#experience h5 {
+  color: #005792;
+}
+
+#education {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+#education h5 {
+  color: #005792;
+}
+
+#current, #current h5 {
+  color: #fd5f00;
 }
